@@ -1,0 +1,530 @@
+{
+  "cube": {
+    "source": "asset",
+    "path": "cube.glb",
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.49899,
+          -0.5,
+          -0.49889
+        ],
+        "max": [
+          0.49899,
+          0.5,
+          0.49889
+        ]
+      },
+      "size": [
+        0.99798,
+        1,
+        0.99778
+      ],
+      "groundOffsetY": 0.5,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 900,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the cube recipe (specSha 40fabd629663…) — decision ledger src/templates/popcade/asset-approvals.json"
+  },
+  "cube_hidden": {
+    "source": "asset",
+    "path": "cube_hidden.glb",
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.4995,
+          -0.5,
+          -0.5005
+        ],
+        "max": [
+          0.4995,
+          0.5,
+          0.5005
+        ]
+      },
+      "size": [
+        0.99899,
+        1,
+        1.001
+      ],
+      "groundOffsetY": 0.5,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 3000,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the cube_hidden recipe (specSha 40fabd629663…) — decision ledger src/templates/popcade/asset-approvals.json"
+  },
+  "cube_locked": {
+    "source": "asset",
+    "path": "cube_locked.glb",
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.49962,
+          -0.5,
+          -0.49978
+        ],
+        "max": [
+          0.49962,
+          0.5,
+          0.49978
+        ]
+      },
+      "size": [
+        0.99924,
+        1,
+        0.99956
+      ],
+      "groundOffsetY": 0.5,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 3000,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the cube_locked recipe (specSha 40fabd629663…) — decision ledger src/templates/popcade/asset-approvals.json"
+  },
+  "cube_core": {
+    "source": "asset",
+    "path": "cube_core.glb",
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.49989,
+          -0.5,
+          -0.49984
+        ],
+        "max": [
+          0.49989,
+          0.5,
+          0.49984
+        ]
+      },
+      "size": [
+        0.99977,
+        1,
+        0.99969
+      ],
+      "groundOffsetY": 0.5,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 3000,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the cube_core recipe (specSha 40fabd629663…) — decision ledger src/templates/popcade/asset-approvals.json"
+  },
+  "cube_stone": {
+    "source": "asset",
+    "path": "cube_stone.glb",
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.49983,
+          -0.5,
+          -0.5004
+        ],
+        "max": [
+          0.49983,
+          0.5,
+          0.5004
+        ]
+      },
+      "size": [
+        0.99967,
+        1,
+        1.0008
+      ],
+      "groundOffsetY": 0.5,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 3000,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the cube_stone recipe (specSha 40fabd629663…) — decision ledger src/templates/popcade/asset-approvals.json"
+  },
+  "cube_wood": {
+    "source": "asset",
+    "path": "cube_wood.glb",
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.5002,
+          -0.5,
+          -0.50029
+        ],
+        "max": [
+          0.5002,
+          0.5,
+          0.50029
+        ]
+      },
+      "size": [
+        1.0004,
+        1,
+        1.00058
+      ],
+      "groundOffsetY": 0.5,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 2998,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the cube_wood recipe (specSha 40fabd629663…) — decision ledger src/templates/popcade/asset-approvals.json"
+  },
+  "cube_chameleon": {
+    "source": "asset",
+    "path": "cube_chameleon.glb",
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.49994,
+          -0.5,
+          -0.4998
+        ],
+        "max": [
+          0.49994,
+          0.5,
+          0.4998
+        ]
+      },
+      "size": [
+        0.99987,
+        1,
+        0.9996
+      ],
+      "groundOffsetY": 0.5,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 3000,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the cube_chameleon recipe (specSha 40fabd629663…) — decision ledger src/templates/popcade/asset-approvals.json"
+  },
+  "cube_ice": {
+    "source": "asset",
+    "path": "cube_ice.glb",
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.49988,
+          -0.5,
+          -0.50002
+        ],
+        "max": [
+          0.49988,
+          0.5,
+          0.50002
+        ]
+      },
+      "size": [
+        0.99975,
+        1,
+        1.00004
+      ],
+      "groundOffsetY": 0.5,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 3000,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the cube_ice recipe (specSha 40fabd629663…) — decision ledger src/templates/popcade/asset-approvals.json"
+  },
+  "cube_burst": {
+    "source": "asset",
+    "path": "cube_burst.glb",
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.50043,
+          -0.5,
+          -0.49995
+        ],
+        "max": [
+          0.50043,
+          0.5,
+          0.49995
+        ]
+      },
+      "size": [
+        1.00085,
+        1,
+        0.9999
+      ],
+      "groundOffsetY": 0.5,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 3000,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the cube_burst recipe (specSha 40fabd629663…) — decision ledger src/templates/popcade/asset-approvals.json"
+  },
+  "cube_echo": {
+    "source": "asset",
+    "path": "cube_echo.glb",
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.49993,
+          -0.5,
+          -0.49982
+        ],
+        "max": [
+          0.49993,
+          0.5,
+          0.49982
+        ]
+      },
+      "size": [
+        0.99987,
+        1,
+        0.99963
+      ],
+      "groundOffsetY": 0.5,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 3000,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the cube_echo recipe (specSha 40fabd629663…) — decision ledger src/templates/popcade/asset-approvals.json"
+  },
+  "cube_splitter": {
+    "source": "asset",
+    "path": "cube_splitter.glb",
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.49991,
+          -0.5,
+          -0.49989
+        ],
+        "max": [
+          0.49991,
+          0.5,
+          0.49989
+        ]
+      },
+      "size": [
+        0.99982,
+        1,
+        0.99977
+      ],
+      "groundOffsetY": 0.5,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 2998,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the cube_splitter recipe (specSha 40fabd629663…) — decision ledger src/templates/popcade/asset-approvals.json"
+  },
+  "cube_honey": {
+    "source": "asset",
+    "path": "cube_honey.glb",
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.50028,
+          -0.5,
+          -0.49946
+        ],
+        "max": [
+          0.50028,
+          0.5,
+          0.49946
+        ]
+      },
+      "size": [
+        1.00057,
+        1,
+        0.99892
+      ],
+      "groundOffsetY": 0.5,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 3000,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the cube_honey recipe (specSha 40fabd629663…) — decision ledger src/templates/popcade/asset-approvals.json"
+  },
+  "cube_master_key": {
+    "source": "asset",
+    "path": "cube_master_key.glb",
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.49935,
+          -0.5,
+          -0.49995
+        ],
+        "max": [
+          0.49935,
+          0.5,
+          0.49995
+        ]
+      },
+      "size": [
+        0.9987,
+        1,
+        0.99991
+      ],
+      "groundOffsetY": 0.5,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 3000,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the cube_master_key recipe (specSha 40fabd629663…) — decision ledger src/templates/popcade/asset-approvals.json"
+  },
+  "cube_gift": {
+    "source": "asset",
+    "path": "cube_gift.glb",
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.49933,
+          -0.5,
+          -0.49991
+        ],
+        "max": [
+          0.49933,
+          0.5,
+          0.49991
+        ]
+      },
+      "size": [
+        0.99866,
+        1,
+        0.99982
+      ],
+      "groundOffsetY": 0.5,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 2999,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the cube_gift recipe (specSha 40fabd629663…) — decision ledger src/templates/popcade/asset-approvals.json"
+  },
+  "cube_wild": {
+    "source": "asset",
+    "path": "cube_wild.glb",
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.49947,
+          -0.5,
+          -0.49935
+        ],
+        "max": [
+          0.49947,
+          0.5,
+          0.49935
+        ]
+      },
+      "size": [
+        0.99895,
+        1,
+        0.99869
+      ],
+      "groundOffsetY": 0.5,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 3000,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the cube_wild recipe (specSha 40fabd629663…) — decision ledger src/templates/popcade/asset-approvals.json"
+  },
+  "cube_armor": {
+    "source": "asset",
+    "path": "cube_armor.glb",
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.49837,
+          -0.5,
+          -0.49908
+        ],
+        "max": [
+          0.49837,
+          0.5,
+          0.49908
+        ]
+      },
+      "size": [
+        0.99674,
+        1,
+        0.99815
+      ],
+      "groundOffsetY": 0.5,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 3000,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the cube_armor recipe (specSha 40fabd629663…) — decision ledger src/templates/popcade/asset-approvals.json"
+  }
+}
