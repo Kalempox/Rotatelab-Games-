@@ -32,18 +32,26 @@ its own machine by the player's own perf run.
 
 | platform | load | average | p95 frame | worst frame | machine |
 |---|---|---|---|---|---|
-| Windows | the swarm's peak (157 balls, 246 pops) | 508–541 fps | 2.63 ms | 20.8 ms (the shot's first frame) | Ryzen 5 7500F · RTX 5060 Ti · 390 × 845 window |
-| Windows | the lose bot over level 1 (14 s) | 593 fps | 2.22 ms | 20.7 ms | same |
+| Windows | the swarm's peak (157 balls, 246 pops) | 526.8 fps | 2.45 ms | 20.4 ms (the shot's first frame) | Ryzen 5 7500F · RTX 5060 Ti · 390 × 845 window |
+| Windows | the lose bot over level 1 (14 s) | 597.3 fps | 2.18 ms | 17.9 ms | same |
 | Mac | — | waiting for the perf run on a Mac | | | |
 
 Source: `Popcade.exe -hcuPerf` (the player's own frame times), 2026-10-09, with the pops' paint, the particle bursts,
-the shake and flash and both ceremonies drawn. The GPU's share of a frame at the peak: 0.31 ms (0.65 ms before the shell
-pass was bounded to what each blur reaches — the change aimed at the Mac's Retina screens).
+the shake and flash and both ceremonies drawn. The GPU's share of a frame at the peak: 0.24 ms (0.65 ms before the shell
+pass was bounded to what each blur reaches, 0.31 ms before a blur read only its own layer, as Chrome reads it — both
+changes aimed at the Mac's Retina screens).
 
-## Not one to one yet
+## One to one with the three.js game
 
-- The splash's slide into the menu (the tour did not dump that curtain).
-- The won card's coins flying to the counter.
-- The panels' live values (shop, season and the rest show the values of the moment they were recorded).
-- The 🪙 glyph on the paid continue button (no carried font holds it).
-- During the win ceremony hc may fade the HUD and the booster bar; to be checked against a real-time hc recording.
+The Unity port is checked against hc by a tool that lists every gap it can find (`hcu/tools/port-gaps.mjs`: the port's
+own admissions, every button of every recorded screen, every row of the motion inventory, every surface the shell draws);
+it lists none for this build. Completed for this update:
+
+- the splash slides into the menu; the won card's coins fly to the counter, which takes them as they land; the Moves pill
+  beats when three moves are left and on a gift move;
+- every world's own card and level page, the no-lives card, the Haptics switch on the pause and settings cards;
+- the shop, leaderboard, season (with its prize to claim), worlds and lives panels and the hub's streak and pips show the
+  player's own values; the level picker rings the level Play opens;
+- the 🪙 on the paid continue (the browser's own picture of it, the same on Windows and Mac); a short balance flashes red;
+- the wall's lighter cube forms (hc's own thinned geometry); a card's blur reads only the interface behind it, as Chrome
+  does — the board under a card stays sharp, as in hc.
