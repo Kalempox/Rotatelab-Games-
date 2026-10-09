@@ -10,5 +10,4 @@ Every game we make, in a folder named `<date>-<name>`, with its working builds:
 |---|---|---|---|---|
 | 2026-10-09 | [Popcade](2026-10-09-popcade/) | [play](https://kalempox.github.io/Rotatelab-Games-/2026-10-09-popcade/web/) | [Popcade-Windows.zip](2026-10-09-popcade/windows/Popcade-Windows.zip) | [Popcade-Mac.zip](2026-10-09-popcade/mac/Popcade-Mac.zip) |
 
-The web links work once GitHub Pages is on for this repository (Settings → Pages → Deploy from a branch → `main`,
-`/ (root)`).
+All games on one page: **https://kalempox.github.io/Rotatelab-Games-/** (GitHub Pages, from `main` / root).

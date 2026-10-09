@@ -10,6 +10,11 @@ Made in hc (three.js) first, then ported one to one to Unity 6 (6000.3.10f1, URP
 **https://kalempox.github.io/Rotatelab-Games-/2026-10-09-popcade/web/** — Chrome, Safari, Edge or Firefox on a desktop or
 laptop (about 24 MB on the first load). The folder [`web/`](web/) is the whole static package.
 
+Downloaded instead of played online: a browser does not run the game straight from `index.html` (it says so if you
+open it). Double-click `Play offline (Windows).bat` (Windows — nothing to install) or `Play offline (Mac).command`
+(Mac — needs Python 3) in the `web` folder: the game opens in your browser from this computer; keep the small window
+open while you play.
+
 ## Windows
 
 1. Download [`windows/Popcade-Windows.zip`](windows/Popcade-Windows.zip) and extract it (right-click → Extract All…).

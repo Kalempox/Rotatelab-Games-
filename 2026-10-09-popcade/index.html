@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Popcade</title>
+<style>
+  :root { --bg: #f4f5f9; --card: #ffffff; --ink: #1d2030; --dim: #5d6378; --line: #e1e4ee; --go: #2fb24c; --go-ink: #ffffff; --link: #3b5bdb; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0b0d12; --card: #161a24; --ink: #eef0f6; --dim: #9aa1b5; --line: #262b38; --go: #35c456; --go-ink: #08130b; --link: #8ea8ff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; display: grid; gap: 16px; }
+  h1 { font-size: 30px; margin: 0; }
+  .date { color: var(--dim); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; }
+  .card h2 { margin: 0 0 8px; font-size: 19px; }
+  .card p, .card ol { margin: 0 0 8px; }
+  .btn { display: inline-block; padding: 10px 16px; border-radius: 10px; border: 1px solid var(--line); color: var(--ink); text-decoration: none; font-weight: 600; }
+  .btn.play { background: var(--go); border-color: var(--go); color: var(--go-ink); }
+  a { color: var(--link); }
+  code { font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <div><h1>Popcade</h1><div class="date">2026-10-09 · <a href="../">all games</a></div></div>
+  <p>Tap a tray cube: it flies up its lane and bursts into balls that pop every cube of their own colour they touch, in chains. 100 levels, boosters, lessons, a shop, a season board, lives and streaks.</p>
+  <section class="card">
+    <h2>Web (three.js)</h2>
+    <p><a class="btn play" href="web/">Play in the browser</a></p>
+    <p>Chrome, Safari, Edge or Firefox on a desktop or laptop (about 24 MB on the first load). Downloaded instead: double-click <code>Play offline (Windows).bat</code> or <code>Play offline (Mac).command</code> in the <code>web</code> folder — a browser does not run the game straight from <code>index.html</code>.</p>
+  </section>
+  <section class="card">
+    <h2>Windows</h2>
+    <p><a class="btn" href="windows/Popcade-Windows.zip">Download Popcade-Windows.zip</a></p>
+    <ol>
+      <li>Extract the zip (right-click → Extract All…).</li>
+      <li>Double-click <code>Popcade.exe</code> in the <code>Popcade</code> folder (the whole folder is needed).</li>
+      <li>If Windows says “Windows protected your PC”: More info → Run anyway.</li>
+    </ol>
+  </section>
+  <section class="card">
+    <h2>Mac (Apple silicon and Intel, macOS 12 or later)</h2>
+    <p><a class="btn" href="mac/Popcade-Mac.zip">Download Popcade-Mac.zip</a></p>
+    <ol>
+      <li>Double-click the zip: a <code>Popcade-Mac</code> folder appears.</li>
+      <li>Double-click <code>Run perf test.command</code> first: it prepares the app for this Mac and measures the frame rate (it puts <code>popcade-perf-mac.zip</code> on the Desktop).</li>
+      <li>Then double-click <code>Popcade.app</code> to play. Details: <code>READ ME FIRST.txt</code> in the folder.</li>
+    </ol>
+  </section>
+  <p><a href="https://github.com/Kalempox/Rotatelab-Games-/tree/main/2026-10-09-popcade">The folder on GitHub (README, frame rates)</a></p>
+</main>
+</body>
+</html>

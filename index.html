@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rotatelab Games</title>
+<style>
+  :root { --bg: #f4f5f9; --card: #ffffff; --ink: #1d2030; --dim: #5d6378; --line: #e1e4ee; --go: #2fb24c; --go-ink: #ffffff; --link: #3b5bdb; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0b0d12; --card: #161a24; --ink: #eef0f6; --dim: #9aa1b5; --line: #262b38; --go: #35c456; --go-ink: #08130b; --link: #8ea8ff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+  h1 { font-size: 28px; margin: 0 0 6px; }
+  .lead { color: var(--dim); margin: 0 0 24px; }
+  .game { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; display: grid; gap: 12px; }
+  .game h2 { margin: 0; font-size: 22px; }
+  .game .date { color: var(--dim); font-size: 14px; }
+  .row { display: flex; flex-wrap: wrap; gap: 10px; }
+  .btn { display: inline-block; padding: 10px 16px; border-radius: 10px; border: 1px solid var(--line); color: var(--ink); text-decoration: none; font-weight: 600; }
+  .btn.play { background: var(--go); border-color: var(--go); color: var(--go-ink); }
+  a { color: var(--link); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Rotatelab Games</h1>
+  <p class="lead">Every game in a folder named by its date and name, with its working builds: the web version (three.js), and the Windows and Mac players (Unity).</p>
+  <section class="game">
+    <div><h2>Popcade</h2><div class="date">2026-10-09</div></div>
+    <div class="row">
+      <a class="btn play" href="2026-10-09-popcade/web/">Play in the browser</a>
+      <a class="btn" href="2026-10-09-popcade/windows/Popcade-Windows.zip">Windows (zip)</a>
+      <a class="btn" href="2026-10-09-popcade/mac/Popcade-Mac.zip">Mac (zip)</a>
+      <a class="btn" href="2026-10-09-popcade/">About this game</a>
+    </div>
+  </section>
+</main>
+</body>
+</html>
