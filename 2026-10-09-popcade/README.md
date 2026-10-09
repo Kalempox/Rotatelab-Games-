@@ -32,8 +32,18 @@ its own machine by the player's own perf run.
 
 | platform | load | average | p95 frame | worst frame | machine |
 |---|---|---|---|---|---|
-| Windows | the swarm's peak (157 balls, 246 pops) | 540 fps | 2.64 ms | 16.4 ms | Ryzen 5 7500F · RTX 5060 Ti · 390 × 845 window |
-| Windows | the lose bot over level 1 (14 s) | 576 fps | 2.50 ms | 16.1 ms | same |
+| Windows | the swarm's peak (157 balls, 246 pops) | 508–541 fps | 2.63 ms | 20.8 ms (the shot's first frame) | Ryzen 5 7500F · RTX 5060 Ti · 390 × 845 window |
+| Windows | the lose bot over level 1 (14 s) | 593 fps | 2.22 ms | 20.7 ms | same |
 | Mac | — | waiting for the perf run on a Mac | | | |
 
-Source: `Popcade.exe -hcuPerf` (the player's own frame times), 2026-10-09.
+Source: `Popcade.exe -hcuPerf` (the player's own frame times), 2026-10-09, with the pops' paint, the particle bursts,
+the shake and flash and both ceremonies drawn. The GPU's share of a frame at the peak: 0.31 ms (0.65 ms before the shell
+pass was bounded to what each blur reaches — the change aimed at the Mac's Retina screens).
+
+## Not one to one yet
+
+- The splash's slide into the menu (the tour did not dump that curtain).
+- The won card's coins flying to the counter.
+- The panels' live values (shop, season and the rest show the values of the moment they were recorded).
+- The 🪙 glyph on the paid continue button (no carried font holds it).
+- During the win ceremony hc may fade the HUD and the booster bar; to be checked against a real-time hc recording.
