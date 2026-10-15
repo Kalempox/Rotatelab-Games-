@@ -1,0 +1,192 @@
+{
+  "bin": {
+    "source": "asset",
+    "path": "bin.glb",
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.20975,
+          -0.21049
+        ],
+        "max": [
+          0.5,
+          0.20975,
+          0.21049
+        ]
+      },
+      "size": [
+        1,
+        0.4195,
+        0.42098
+      ],
+      "groundOffsetY": 0.20975,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 16000,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the bin recipe (specSha 007723d42c68…) — decision ledger src/templates/loopyard/asset-approvals.json"
+  },
+  "cube": {
+    "source": "asset",
+    "path": "cube.glb",
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.49985,
+          -0.49962
+        ],
+        "max": [
+          0.5,
+          0.49985,
+          0.49962
+        ]
+      },
+      "size": [
+        1,
+        0.9997,
+        0.99925
+      ],
+      "groundOffsetY": 0.49985,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 2000,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the cube recipe (specSha 007723d42c68…) — decision ledger src/templates/loopyard/asset-approvals.json"
+  },
+  "track": {
+    "source": "asset",
+    "path": "track.glb",
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.13287,
+          -0.3475
+        ],
+        "max": [
+          0.5,
+          0.13287,
+          0.3475
+        ]
+      },
+      "size": [
+        1,
+        0.26574,
+        0.69499
+      ],
+      "groundOffsetY": 0.13287,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 12000,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the track recipe (specSha 007723d42c68…) — decision ledger src/templates/loopyard/asset-approvals.json"
+  },
+  "track_corner": {
+    "source": "asset",
+    "path": "track_corner.glb",
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.12928,
+          -0.33937
+        ],
+        "max": [
+          0.5,
+          0.12928,
+          0.33937
+        ]
+      },
+      "size": [
+        1,
+        0.25857,
+        0.67874
+      ],
+      "groundOffsetY": 0.12928,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 12000,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the track_corner recipe (specSha 007723d42c68…) — decision ledger src/templates/loopyard/asset-approvals.json"
+  },
+  "cargo_block": {
+    "source": "asset",
+    "path": "cargo_block.glb",
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "measurements": {
+      "bbox": {
+        "min": [
+          -0.5,
+          -0.27506,
+          -0.71718
+        ],
+        "max": [
+          0.5,
+          0.27506,
+          0.71718
+        ]
+      },
+      "size": [
+        1,
+        0.55011,
+        1.43435
+      ],
+      "groundOffsetY": 0.27506,
+      "centerXZ": [
+        0,
+        0
+      ],
+      "meshCount": 1,
+      "tris": 1498,
+      "rigged": false,
+      "confidence": "high"
+    },
+    "why": "ASSET FORGE: compiled from the cargo_block recipe (specSha 007723d42c68…) — decision ledger src/templates/loopyard/asset-approvals.json"
+  }
+}
