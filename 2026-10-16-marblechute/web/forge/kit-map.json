@@ -1,0 +1,152 @@
+{
+  "popit_tile_ready": {
+    "source": "asset",
+    "path": "popit_tile_ready.glb",
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "why": "ASSET FORGE (Blender road, second pass): popit_tile_ready — forge-report verdict PASS; drawn on the standing board for the CD's road comparison (schema open end 53)"
+  },
+  "popit_tile_blocked": {
+    "source": "asset",
+    "path": "popit_tile_blocked.glb",
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "why": "ASSET FORGE (Blender road, second pass): popit_tile_blocked — forge-report verdict PASS; drawn on the standing board for the CD's road comparison (schema open end 53)"
+  },
+  "marble": {
+    "source": "asset",
+    "path": "marble.glb",
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "why": "ASSET FORGE (Blender road, second pass): marble — forge-report verdict PASS; drawn on the standing board for the CD's road comparison (schema open end 53)"
+  },
+  "crate_active": {
+    "source": "asset",
+    "path": "crate_active.glb",
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "why": "ASSET FORGE (Blender road, second pass): crate_active — forge-report verdict PASS; drawn on the standing board for the CD's road comparison (schema open end 53)"
+  },
+  "crate_queued": {
+    "source": "asset",
+    "path": "crate_queued.glb",
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "why": "ASSET FORGE (Blender road, second pass): crate_queued — forge-report verdict PASS; drawn on the standing board for the CD's road comparison (schema open end 53)"
+  },
+  "belt": {
+    "source": "asset",
+    "path": "belt.glb",
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "why": "ASSET FORGE (Blender road, second pass): belt — forge-report verdict PASS; drawn on the standing board for the CD's road comparison (schema open end 53)"
+  },
+  "empty_cell": {
+    "source": "asset",
+    "path": "empty_cell.glb",
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "why": "ASSET FORGE (Blender road, second pass): empty_cell — forge-report verdict PASS; drawn on the standing board for the CD's road comparison (schema open end 53)"
+  },
+  "machine_frame": {
+    "source": "asset",
+    "path": "machine_frame.glb",
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "why": "ASSET FORGE (Blender road, second pass): machine_frame — forge-report verdict PASS; drawn on the standing board for the CD's road comparison (schema open end 53)"
+  },
+  "machine_basin": {
+    "source": "asset",
+    "path": "machine_basin.glb",
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "why": "ASSET FORGE (Blender road, second pass): machine_basin — forge-report verdict PASS; drawn on the standing board for the CD's road comparison (schema open end 53)"
+  },
+  "machine_floor": {
+    "source": "asset",
+    "path": "machine_floor.glb",
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "why": "ASSET FORGE (Blender road, second pass): machine_floor — forge-report verdict PASS; drawn on the standing board for the CD's road comparison (schema open end 53)"
+  },
+  "housing_plate": {
+    "source": "asset",
+    "path": "housing_plate.glb",
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "why": "ASSET FORGE (Blender road, second pass): housing_plate — forge-report verdict PASS; drawn on the standing board for the CD's road comparison (schema open end 53)"
+  },
+  "conveyor_rim": {
+    "source": "asset",
+    "path": "conveyor_rim.glb",
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "why": "ASSET FORGE (Blender road, second pass): conveyor_rim — forge-report verdict PASS; drawn on the standing board for the CD's road comparison (schema open end 53)"
+  },
+  "belt_pocket": {
+    "source": "asset",
+    "path": "belt_pocket.glb",
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "why": "ASSET FORGE (Blender road, second pass): belt_pocket — forge-report verdict PASS; drawn on the standing board for the CD's road comparison (schema open end 53)"
+  },
+  "conveyor_island": {
+    "source": "asset",
+    "path": "conveyor_island.glb",
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "why": "ASSET FORGE (Blender road, second pass): conveyor_island — forge-report verdict PASS; drawn on the standing board for the CD's road comparison (schema open end 53)"
+  },
+  "machine_frame_edge": {
+    "source": "asset",
+    "path": "machine_frame_edge.glb",
+    "rotate": [
+      0,
+      0,
+      0
+    ],
+    "why": "ASSET FORGE (Blender road, second pass): machine_frame_edge — forge-report verdict PASS; drawn on the standing board for the CD's road comparison (schema open end 53)"
+  }
+}
