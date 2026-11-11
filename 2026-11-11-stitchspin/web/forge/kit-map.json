@@ -1,0 +1,27 @@
+{
+ "conveyor_rail": {
+  "source": "asset",
+  "path": "conveyor_rail.glb",
+  "why": "the conveyor loop, swept in Blender from the card's structure row (tools/blender/tabletop_parts.py --export): a sunk deck between two raised walls"
+ },
+ "rail_arrow": {
+  "source": "asset",
+  "path": "rail_arrow.glb",
+  "why": "one arrow of the loop's deck, instanced along the path by the game (tabletop_parts.py --export)"
+ },
+ "voxel": {
+  "source": "asset",
+  "path": "voxel.glb",
+  "why": "the sculpture's cube: a toy cube, its corners and edges rounded over a fifth of its side, its faces flat (hero_forms.py --part voxel-export, after the CD's first play of 2026-11-10); the game stands it at 0.9 of its cell and paints each instance by its own normals"
+ },
+ "rack_slot": {
+  "source": "asset",
+  "path": "rack_slot.glb",
+  "why": "one rack slot: a low raised block, 0.4 of its side high, its top face in the card's face colour and its walls in the lip colour (hero_forms.py --part slot-export, after the CD's scene corrections of 2026-11-10: a slight height with its side showing); the pillow before it is kept as rack_slot_pillow_2026-11-10.glb"
+ },
+ "bobbin": {
+  "source": "asset",
+  "path": "bobbin.glb",
+  "why": "the bobbin as the touched piece of a hybrid-casual game (the CD, 2026-11-10): a toy bobbin in one piece, a plump barrel flowing into two low rounded heads, white, painted by the game in its level colour (hero_forms.py --part piece-export); the wooden spool before it is kept as bobbin_spool_2026-11-10.glb with its winding (bobbin_winding.glb)"
+ }
+}

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<script>
+if (location.protocol === 'file:') {
+  window.addEventListener('DOMContentLoaded', function () {
+    document.body.innerHTML = '<div id="hc-file-note" style="font:16px/1.5 system-ui,sans-serif;color:#f2f5fa;background:#0b0d12;position:fixed;inset:0;display:grid;place-items:center;padding:24px;text-align:center"><div style="max-width:440px"><h1 style="font-size:22px;margin:0 0 12px">This game runs from a web address</h1><p style="margin:0 0 10px">A browser does not run it straight from a file.</p><p style="margin:0">Play it online (the link is in the README), or double-click <b>Play offline (Windows).bat</b> on Windows or <b>Play offline (Mac).command</b> on a Mac &mdash; both are in this folder.</p></div></div>';
+  });
+}
+</script>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <title>STITCHBLAST</title>
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: #0b0d12;
+        font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-user-select: none;
+        user-select: none;
+        touch-action: none;
+        overscroll-behavior: none;
+      }
+      /*
+        The game lives in a box of a PHONE's proportions; it does not fill the window.
+
+        The reason is correctness, not looks: the target device is a portrait phone and the
+        frame is derived from the content. Filling a desktop window would mean tuning an
+        aspect ratio no player will ever see: the machine could look "right" on a wide
+        screen and be cropped on a phone.
+
+        `position: relative` is required: the HUD and the overlays are placed against this
+        box, not against the window.
+      */
+      body {
+        display: grid;
+        place-items: center;
+        background: #0b0d12;
+      }
+      #hc-root {
+        position: relative;
+        aspect-ratio: 9 / 19.5;
+        height: min(100dvh, calc(100vw * 19.5 / 9));
+        max-height: 100dvh;
+        max-width: 100vw;
+        overflow: hidden;
+        display: block;
+        border-radius: min(2.6vh, 22px);
+        box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06), 0 18px 60px rgba(0, 0, 0, 0.55);
+      }
+      /*
+        The box stands on whole pixels. In a window wider than the box (420 x 860: the box
+        396.92 px wide at left 11.53) the canvas was drawn across a fraction of a pixel and
+        every edge of the game came out soft (stitchspin's final proof: edges 4.0 px wide
+        where the same frame reads crisp at 600 x 1300). The width goes to the nearest whole
+        pixel, the box is placed by whole-pixel margins; a browser without `round()` keeps
+        the centred box above. The CD, 2026-11-10, on the two frames: "Kutuyu tam piksele
+        oturt (Önerilen)".
+      */
+      @supports (width: round(nearest, 1px, 1px)) {
+        body {
+          place-items: start;
+        }
+        #hc-root {
+          --box-h: min(100dvh, round(nearest, calc(100vw * 19.5 / 9), 1px));
+          --box-w: min(100vw, round(nearest, calc(var(--box-h) * 9 / 19.5), 1px));
+          aspect-ratio: auto;
+          width: var(--box-w);
+          height: var(--box-h);
+          margin-left: round(down, calc((100vw - var(--box-w)) / 2), 1px);
+          margin-top: round(down, calc((100dvh - var(--box-h)) / 2), 1px);
+        }
+      }
+      #hc-root > canvas {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    <script type="module" crossorigin src="./assets/index-CML_bKhw.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-D63AJU87.css">
+  </head>
+  <body>
+    <div id="hc-root"></div>
+  </body>
+</html>
