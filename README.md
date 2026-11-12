@@ -8,7 +8,7 @@ Every game we make, in a folder named `<date>-<name>`, with its working builds:
 
 | date | game | web (three.js) | Windows | Mac |
 |---|---|---|---|---|
-| 2026-11-11 | [STITCHBLAST](2026-11-11-stitchspin/) | [play](https://kalempox.github.io/Rotatelab-Games-/2026-11-11-stitchspin/web/) | [STITCHBLAST-Windows.zip](2026-11-11-stitchspin/windows/STITCHBLAST-Windows.zip) | [STITCHBLAST-Mac.zip](2026-11-11-stitchspin/mac/STITCHBLAST-Mac.zip) |
+| 2026-11-11 | [Stitchspin](2026-11-11-stitchspin/) | [play](https://kalempox.github.io/Rotatelab-Games-/2026-11-11-stitchspin/web/) | [Stitchspin-Windows.zip](2026-11-11-stitchspin/windows/Stitchspin-Windows.zip) | [Stitchspin-Mac.zip](2026-11-11-stitchspin/mac/Stitchspin-Mac.zip) |
 | 2026-10-16 | [Marblechute](2026-10-16-marblechute/) | [play](https://kalempox.github.io/Rotatelab-Games-/2026-10-16-marblechute/web/) | [Marblechute-Windows.zip](2026-10-16-marblechute/windows/Marblechute-Windows.zip) | [Marblechute-Mac.zip](2026-10-16-marblechute/mac/Marblechute-Mac.zip) |
 | 2026-10-15 | [Loopyard](2026-10-15-loopyard/) | [play](https://kalempox.github.io/Rotatelab-Games-/2026-10-15-loopyard/web/) | [Loopyard-Windows.zip](2026-10-15-loopyard/windows/Loopyard-Windows.zip) | [Loopyard-Mac.zip](2026-10-15-loopyard/mac/Loopyard-Mac.zip) |
 | 2026-10-09 | [Popcade](2026-10-09-popcade/) | [play](https://kalempox.github.io/Rotatelab-Games-/2026-10-09-popcade/web/) | [Popcade-Windows.zip](2026-10-09-popcade/windows/Popcade-Windows.zip) | [Popcade-Mac.zip](2026-10-09-popcade/mac/Popcade-Mac.zip) |
